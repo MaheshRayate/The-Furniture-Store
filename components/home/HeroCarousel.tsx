@@ -9,13 +9,13 @@ import {
 import { Card, CardContent } from '@/components/ui/card';
 
 import Image from 'next/image';
-import hero1 from '@/public/images/Hero1.jpg';
-import hero2 from '@/public/images/Hero2.jpg';
-import hero3 from '@/public/images/Hero3.jpg';
-import hero4 from '@/public/images/Hero4.jpg';
-import hero5 from '@/public/images/Hero5.jpg';
+import Hero1 from '@/public/images/Hero1.jpg';
+import Hero2 from '@/public/images/Hero2.jpg';
+import Hero3 from '@/public/images/Hero3.jpg';
+import Hero4 from '@/public/images/Hero4.jpg';
+import Hero5 from '@/public/images/Hero5.jpg';
 
-const carouselImages = [hero1, hero2, hero3, hero4,hero5];
+const carouselImages = [Hero1, Hero2, Hero3, Hero4,Hero5];
 
 function HeroCarousel() {
   return (
